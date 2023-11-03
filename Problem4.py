@@ -13,4 +13,4 @@ for outlier in system:
 """ The loop() is an iteration but in this problem, we applied a if statement.
     The if statement is a conditional that triggers action when a particular point is reached.
     The break statement acted on he if function to create a halt  
-    In the print, we apply the end() to print the output horizontally                """
+    In the print, we apply the end() to print the output horizontally.                        """

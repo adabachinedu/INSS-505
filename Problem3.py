@@ -11,3 +11,4 @@ add_Input = (problem1+problem2+problem3+problem4+problem5)
 # Print the output of the sum
 print(add_Input)
 # The average is calculated as the sum of all the input divided by the number of input using the builtin function
+# End of problem

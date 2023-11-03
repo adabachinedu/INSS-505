@@ -9,4 +9,5 @@ width = int(input("The width of a rectangle is shortest path of the shape. In th
 
 # The variable for the length is defined below. The variables were earlier converted. The int() will not be needed.
 area = (length*width)
+# End of problem
 print("The area of the rectangle is", area, "square meters", end="")
