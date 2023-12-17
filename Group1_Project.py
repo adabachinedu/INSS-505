@@ -1,4 +1,4 @@
-#The Start-up page of the ATM in Idle Mode will Read as Follows:
+# The Start-up page of the ATM in Idle Mode will Read as Follows:
 
 print("Welcome to Group1 Bank PLC\n"
 
@@ -15,11 +15,11 @@ pin = 1234
 # Account balance of INSS-505
 balance = 10000
 
-#Variables
-user_pin = 0
-user_withdrawal = 0
-user_exit = 0
-
+# Variables
+# user_pin = 0
+# user_withdrawal = 0
+# user_exit = 0
+#
 while attempts > 0:
     user_pin = int(input("Enter Your Four Digit PIN:\n"))
 
@@ -33,7 +33,7 @@ while attempts > 0:
     else:
         access_menu = input(" Select Transaction: D-deposit(cash or check),W-withdrawal:   \n")
 
-# For Withdrawal, the Code is as follows:
+# For Deposit, the Code is as follows:
         if access_menu == "D":
             user_deposit = int(input("Enter amount to deposit:   $"))
             balance += user_deposit
@@ -59,4 +59,4 @@ while attempts > 0:
             print("please remove card, thank you!")
             break
 """The system is designed to break the loop if anything other than a yes is inputted.
-    This will be considered as human error"""
+    # This will be considered as human error"""
