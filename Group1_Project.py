@@ -23,7 +23,7 @@ user_exit = 0
 while attempts > 0:
     user_pin = int(input("Enter Your Four Digit PIN:\n"))
 
-# User is prompted to enter PIN, after 3 tries, C\card is confiscated
+# User is prompted to enter PIN, after 3 tries, the card is confiscated
     if user_pin != pin:
         attempts -= 1
         print("Invalid PIN,Please Enter a valid PIN!\n"
