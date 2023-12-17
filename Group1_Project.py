@@ -1,10 +1,7 @@
 # The Start-up page of the ATM in Idle Mode will Read as Follows:
-
 print("Welcome to Group1 Bank PLC\n"
 
       "Insert Card")
-
-# Standard Requirement for an ATM system Authentication Before the Menu is Displayed:
 
 # Number of PIN tries set after which, card is confiscated
 attempts = 3
@@ -15,11 +12,12 @@ pin = 1234
 # Account balance of INSS-505
 balance = 10000
 
-# Variables
-# user_pin = 0
-# user_withdrawal = 0
-# user_exit = 0
-#
+#Variables
+user_pin = 0
+user_withdrawal = 0
+user_exit = 0
+
+# Standard Requirement for an ATM system Authentication Before the Menu is Displayed:
 while attempts > 0:
     user_pin = int(input("Enter Your Four Digit PIN:\n"))
 
@@ -37,8 +35,7 @@ while attempts > 0:
         if access_menu == "D":
             user_deposit = int(input("Enter amount to deposit:   $"))
             balance += user_deposit
-            print("You have successfully deposited $",user_deposit, "to your account\n")
-            print("total balance is:", balance)
+            print("You have successfully deposited $",user_deposit, "to your account\n" "total balance is:", balance)
 
 # Alternatively, a User can initiate a Withdrawal Request.
 # Withdrawal could fail if the requested withdrawal amount is greater than the account balance.
@@ -60,3 +57,4 @@ while attempts > 0:
             break
 """The system is designed to break the loop if anything other than a yes is inputted.
     This will be considered as human error"""
+
