@@ -59,4 +59,4 @@ while attempts > 0:
             print("please remove card, thank you!")
             break
 """The system is designed to break the loop if anything other than a yes is inputted.
-    # This will be considered as human error"""
+    This will be considered as human error"""
